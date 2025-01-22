@@ -48,14 +48,14 @@ const Home = () => {
               >
                 Hire me
               </a>
-              <a
+              <embed
                 id="resume_link"
-                href={Pdf}
+                src={Pdf}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Resume
-              </a>
+              </embed>
             </div>
             <div className="item-3">
               <a
