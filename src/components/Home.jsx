@@ -1,6 +1,6 @@
 import transition from "../transition";
 import { ReactTyped } from "react-typed";
-import Pdf from "../assets/document/Ashutosh Gurung - Resume.pdf";
+import Pdf from "../assets/document/Resume.pdf";
 import VideogameAssetIcon from "@mui/icons-material/VideogameAsset";
 
 const skill = [
@@ -48,14 +48,9 @@ const Home = () => {
               >
                 Hire me
               </a>
-              <embed
-                id="resume_link"
-                src={Pdf}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a id="resume_link" href={Pdf} target="_blank" rel="noreferrer">
                 Resume
-              </embed>
+              </a>
             </div>
             <div className="item-3">
               <a
