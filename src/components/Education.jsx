@@ -2,6 +2,7 @@ import { useState } from "react";
 import transition from "../transition";
 import EdModal from "./EdModal";
 import { AnimatePresence } from "framer-motion";
+import nishIcon from "/src/assets/image/nish.png";
 
 const edList = [
   {
@@ -10,7 +11,7 @@ const edList = [
     course: "B. Sc computer science (HI)",
     desc: "I completed study in degree. I can deeply analyse the coding and projects issue with logical, algorithm and research. My skills are C, C++, C#, ASP .Net, MySQL, React, Node.js, Express.js, MongoDB and API.",
     date: "2020-2024",
-    img: "/src/assets/image/national-institute-of-speech-and-hearing-thiruvananthapuram-logo.png",
+    img: nishIcon,
   },
 ];
 
