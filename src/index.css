@@ -870,7 +870,7 @@ body {
 }
 
 /* mobile mode */
-@media (max-width: 414px) {
+@media (max-width: 415px) {
   * {
     padding: 0;
     margin: 0;
@@ -1205,7 +1205,7 @@ body {
 
   #forward_ed_headling {
     width: 80%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: auto;
   }
 
@@ -1250,7 +1250,7 @@ body {
     width: 80%;
     text-align: left;
     margin: auto;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   .ed_model_paragraph {
@@ -1258,7 +1258,7 @@ body {
     top: 35px;
     width: 80%;
     text-align: left;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     text-align: justify;
     margin: auto;
   }
