@@ -1204,7 +1204,9 @@ body {
   }
 
   #forward_ed_headling {
+    width: 80%;
     font-size: 1.5rem;
+    margin: auto;
   }
 
   .forward_ed_card {
