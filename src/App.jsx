@@ -16,11 +16,6 @@ import Contact from "./components/Contact";
 
 const Main = styled.div`
   background-image: ${({ theme }) => theme.backgroundImage};
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  box-sizing: border-box;
-  display: fixed;
 `;
 
 function App() {
@@ -45,7 +40,7 @@ function App() {
       ) : (
         <>
           <ThemeProvider theme={isChangeTheme ? lightTheme : darkTheme}>
-            <Main>
+            <Main className="main-container">
               <h3 style={{ position: "absolute", right: 0, zIndex: 99 }}>
                 Developed by Ashu Dev✨
               </h3>

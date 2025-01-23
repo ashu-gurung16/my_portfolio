@@ -31,7 +31,7 @@ const EdModal = ({ name, course, desc, date, img, onClose }) => {
           <div className="ed_close_logo" onClick={onClose}>
             <CloseIcon fontSize="large" />
           </div>
-          <h1>✨{name}✨</h1>
+          <h1 id="forward_ed_headling">✨{name}✨</h1>
           <div
             className="ed_modal_img"
             style={{ backgroundImage: `url(${img})` }}

@@ -12,10 +12,15 @@ import {
   DiNpm,
   DiPostgresql,
 } from "react-icons/di";
-import { SiExpress } from "react-icons/si";
+import { AiOutlineDotNet } from "react-icons/ai";
+import { SiCplusplus, SiExpress } from "react-icons/si";
 import { useState } from "react";
 
 const skill_item = [
+  {
+    title: <SiCplusplus size={100} />,
+    name: "C++",
+  },
   {
     title: <DiHtml5 size={100} />,
     name: "HTML",
