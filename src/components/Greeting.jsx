@@ -29,4 +29,4 @@ export default function Greeting() {
   );
 }
 
-const greetings = ["", "Hello", "Namaste", "Hola", "Konnichiwa", "👋🏻"];
+const greetings = ["Hello", "Namaste", "Hola", "Konnichiwa", "👋🏻"];
