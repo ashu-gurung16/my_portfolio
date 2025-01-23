@@ -688,20 +688,6 @@ body {
   width: 10%;
 }
 
-.con_chat {
-  border-radius: 15px;
-  width: 40%;
-  height: 100%;
-  font-size: 2rem;
-}
-
-.livChat_container {
-  border: 2px #f0d699 solid;
-  border-radius: 15px;
-  width: 100%;
-  height: 90%;
-}
-
 #linkNav {
   display: inline-block;
   margin: 10px;
@@ -717,6 +703,10 @@ body {
 .linkHover {
   background-color: #31511e;
   color: #f0d699;
+}
+
+.navIcon_menu {
+  display: none;
 }
 
 .navbar {
