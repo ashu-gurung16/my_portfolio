@@ -1340,8 +1340,8 @@ body {
     color: #f0d699;
     width: 100px;
     height: 30px;
-    left: -120px;
-    top: -70px;
+    left: -50px;
+    top: -30px;
     transition: opacity 200ms ease-in-out;
   }
 

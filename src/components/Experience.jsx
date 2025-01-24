@@ -24,6 +24,12 @@ const ex_item = [
     cardDetailedText:
       "HTML, CSS, JS, Bootstrap (Framework), Node.js, Express.js, EJS, GitHub, APIs, SQL, PostgreSQL, Authentication and Security, React.js",
   },
+  {
+    title: "Nov 2024 - present",
+    cardTitle: "React (incl. Next.js) course",
+    cardSubtitle: "Udemy",
+    cardDetailedText: "JS, React.js, and Next.js",
+  },
 ];
 
 const Experience = () => {
