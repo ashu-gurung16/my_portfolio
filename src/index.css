@@ -404,6 +404,10 @@ body {
   border-radius: 25px;
 }
 
+.show-timeline {
+  display: none;
+}
+
 .skill_container {
   display: flex;
   justify-content: center;
@@ -870,7 +874,7 @@ body {
 }
 
 /* mobile mode */
-@media (max-width: 415px) {
+@media screen and (max-width: 431px) {
   * {
     padding: 0;
     margin: 0;
@@ -1266,19 +1270,27 @@ body {
   .ex_container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
     width: 100vw;
     height: 100vh;
     color: #f0d699;
   }
 
   .ex_card {
-    background-color: #31511e;
-    width: 85%;
-    height: 60%;
-    border-radius: 25px;
+    display: none;
+  }
+
+  .show-timeline {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  .display-timeline {
+    position: relative;
+    top: 25px;
+    width: 100%;
+    height: 80%;
+    text-align: center;
   }
 
   .skill_container {
@@ -1777,7 +1789,7 @@ body {
   }
 }
 
-@media screen and (min-width: 415px) and (max-width: 768px) {
+@media screen and (min-width: 431px) and (max-width: 768px) {
   * {
     padding: 0;
     margin: 0;
@@ -2174,19 +2186,27 @@ body {
   .ex_container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
     width: 100vw;
     height: 100vh;
     color: #f0d699;
   }
 
   .ex_card {
-    background-color: #31511e;
-    width: 85%;
-    height: 60%;
-    border-radius: 25px;
+    display: none;
+  }
+
+  .show-timeline {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  .display-timeline {
+    position: relative;
+    top: 25px;
+    width: 100%;
+    height: 80%;
+    text-align: center;
   }
 
   .skill_container {

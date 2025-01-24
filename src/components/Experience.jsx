@@ -1,5 +1,7 @@
 import { Chrono } from "react-chrono";
 import transition from "../transition";
+import TimelineMob from "./TimelineMob";
+import Timeline from "@mui/lab/Timeline";
 
 const ex_item = [
   {
@@ -56,6 +58,22 @@ const Experience = () => {
               toolbarTextColor: "#f0d699",
             }}
           />
+        </div>
+        <div className="show-timeline">
+          <Timeline position="alternate" className="display-timeline">
+            Start
+            {ex_item.map((items, index) => {
+              return (
+                <TimelineMob
+                  key={index}
+                  date={items.title}
+                  course={items.cardTitle}
+                  academy={items.cardSubtitle}
+                />
+              );
+            })}
+            Soon...🔨
+          </Timeline>
         </div>
       </div>
     </>
