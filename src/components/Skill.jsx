@@ -11,8 +11,8 @@ import {
   DiNodejsSmall,
   DiNpm,
   DiPostgresql,
+  DiReact,
 } from "react-icons/di";
-import { AiOutlineDotNet } from "react-icons/ai";
 import { SiCplusplus, SiExpress } from "react-icons/si";
 import { useState } from "react";
 
@@ -56,6 +56,10 @@ const skill_item = [
   {
     title: <DiGithubBadge size={100} />,
     name: "GitHub",
+  },
+  {
+    title: <DiReact size={100} />,
+    name: "React",
   },
   {
     title: <DiNpm size={100} />,
