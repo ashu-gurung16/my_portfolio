@@ -53,7 +53,7 @@ const Contact = () => {
                   <AiOutlineMail className="con_icon_hover" />
                 </a>
               </p>
-              <p className="con_copy_mail">
+              <div className="con_copy_mail">
                 <CopyToClipboard text="ashuto.gurung16@gmail.com">
                   <div
                     className="con_mail"
@@ -82,13 +82,9 @@ const Contact = () => {
                     <ContentCopyIcon fontSize="large" />
                   </div>
                 </CopyToClipboard>
-              </p>
+              </div>
             </div>
           </div>
-          {/* <div className="con_chat">
-            Online chat
-            <LiveChat />
-          </div> */}
         </div>
       </div>
     </>

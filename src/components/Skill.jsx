@@ -90,10 +90,11 @@ const Skill = () => {
     <>
       <div className="skill_container">
         <div className="skill_card">
-          {skill_item.map((item) => {
+          {skill_item.map((item, index) => {
             return (
               <div
                 className="skill_icon"
+                key={index}
                 onMouseMove={(e) => {
                   const { clientX, clientY } = e;
                   setSkill(item.name);
