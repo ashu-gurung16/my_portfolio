@@ -21,11 +21,13 @@ const Home = () => {
         <div id="home_bg_image">
           <div className="detail_container">
             <div className="item-1">
-              <h1 id="name_headling">
-                I'm Ashutosh Gurung.
-                <div id="cat_img"></div>
-              </h1>
+              <h1 id="name_headling">I'm Ashutosh Gurung.</h1>
+            </div>
+            <div className="item-2">
+              <div id="cat_img"></div>
               <h3 id="tea_headling">Having a nice chai!</h3>
+            </div>
+            <div className="item-3">
               <h2 id="role_job">
                 {"<"}{" "}
                 <ReactTyped
@@ -39,7 +41,7 @@ const Home = () => {
                 {" />"}
               </h2>
             </div>
-            <div className="item-2">
+            <div className="item-4">
               <a
                 id="hire_me_link"
                 href={`mailto:${email}?subject=${encodeURIComponent(
@@ -52,7 +54,7 @@ const Home = () => {
                 Resume
               </a>
             </div>
-            <div className="item-3">
+            <div className="item-5">
               <a
                 href="https://gam.onl/nes/super-mario-bros.html#game"
                 target="_blank"

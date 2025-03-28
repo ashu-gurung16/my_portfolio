@@ -14,6 +14,7 @@ import {
   DiReact,
 } from "react-icons/di";
 import { SiCplusplus, SiExpress } from "react-icons/si";
+import { RiTailwindCssFill } from "react-icons/ri";
 import { useState } from "react";
 
 const skill_item = [
@@ -68,6 +69,10 @@ const skill_item = [
   {
     title: <DiMongodb size={100} />,
     name: "MongoDB",
+  },
+  {
+    title: <RiTailwindCssFill size={100} />,
+    name: "Tailwind CSS",
   },
 ];
 
