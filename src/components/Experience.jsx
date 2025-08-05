@@ -5,12 +5,6 @@ import Timeline from "@mui/lab/Timeline";
 
 const ex_item = [
   {
-    title: "Apr 2023 - May 2023",
-    cardTitle: "Basic Python Development",
-    cardSubtitle: "GiftAbled Foundation",
-    cardDetailedText: "Basic python",
-  },
-  {
     title: "Oct 2023 - Jun 2024",
     cardTitle: "Java Full Stack Web Development",
     cardSubtitle: "WinVinaya Foundation",
@@ -25,10 +19,16 @@ const ex_item = [
       "HTML, CSS, JS, Bootstrap (Framework), Node.js, Express.js, EJS, GitHub, APIs, SQL, PostgreSQL, Authentication and Security, React.js",
   },
   {
-    title: "Nov 2024 - present",
+    title: "Nov 2024 - July 2025",
     cardTitle: "React (incl. Next.js) course",
     cardSubtitle: "Udemy",
     cardDetailedText: "JS, React.js, and Next.js",
+  },
+  {
+    title: "May 2025 - June 2025",
+    cardTitle: "NodeJS (MVC, REST APIs, GraphQL, Deno) course",
+    cardSubtitle: "Udemy",
+    cardDetailedText: "NodeJS, ExpressJS, MVC, SQL, MongoDB, Mongoose, Authentication, Validation, Error Handling, REST APIs, Socket.io, GraphQL, Testing Node.js, TypeScript, Deno",
   },
 ];
 
