@@ -30,6 +30,12 @@ const ex_item = [
     cardSubtitle: "Udemy",
     cardDetailedText: "NodeJS, ExpressJS, MVC, SQL, MongoDB, Mongoose, Authentication, Validation, Error Handling, REST APIs, Socket.io, GraphQL, Testing Node.js, TypeScript, Deno",
   },
+  {
+    title: "June 2025 - present",
+    cardTitle: "Flutter and Dart course",
+    cardSubtitle: "Udemy",
+    cardDetailedText: "Flutter and Dart",
+  },
 ];
 
 const Experience = () => {
