@@ -26,7 +26,7 @@ const ex_item = [
   },
   {
     title: "May 2025 - June 2025",
-    cardTitle: "NodeJS (MVC, REST APIs, GraphQL, Deno) course",
+    cardTitle: "NodeJS course",
     cardSubtitle: "Udemy",
     cardDetailedText: "NodeJS, ExpressJS, MVC, SQL, MongoDB, Mongoose, Authentication, Validation, Error Handling, REST APIs, Socket.io, GraphQL, Testing Node.js, TypeScript, Deno",
   },
