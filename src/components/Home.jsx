@@ -1,6 +1,6 @@
 import transition from "../transition";
 import { ReactTyped } from "react-typed";
-import Pdf from "../assets/document/Resume.pdf";
+import Pdf from "../assets/document/Ashutosh Gurung - Resume.pdf";
 import VideogameAssetIcon from "@mui/icons-material/VideogameAsset";
 
 const skill = [
